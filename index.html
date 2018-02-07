@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+ div.bar {
+ display: inline-block;
+ width: 20px;
+ height: 75px; /* We'll override height later */
+ background-color: teal;
+}
  <meta charset="utf-8">
  <title>D3 Page Template</title>
  <script type="text/javascript" src="d3.js"></script>
@@ -26,9 +32,6 @@ d3.select("body").selectAll("p")
  </script>
  </font>
  </b>
-  <div style="display: inline-block;
- width: 20px;
- height: 75px;
- background-color: teal;">lololl</div>
+  <div class = "bar">lololl</div>
  </body>
 </html>
